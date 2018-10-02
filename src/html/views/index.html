@@ -1,0 +1,11 @@
+<% var data = {
+  title: "Title 1",
+  footer: "footer"
+}; %>
+<%= _.template(require('./../includes/header.html'))(data) %>
+
+<div class="container">
+  First Page
+</div>
+
+<%= _.template(require('./../includes/footer.html'))(data) %>
